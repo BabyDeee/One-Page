@@ -10,32 +10,44 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/16ec810fa7.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP ICON -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
      <!-- Link Swiper's CSS -->
      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+     <!-- AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>One Page</title>
 </head>
 <body>
     <div id="hero-section">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-              <a class="navbar-brand text-primary" href="#">One Page</a>
+              <a class="navbar-brand text-primary fs-3" href="#" style="color: #16507b !important;">One Page</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-primary mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #2487ce !important;">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #2487ce !important;">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #2487ce !important;">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #2487ce !important;">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #2487ce !important;">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #2487ce !important;">Pricing</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" style="color: #2487ce !important;" aria-expanded="false">
                       Dropdown
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,26 +58,26 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link active " aria-current="page" href="#" style="color: #2487ce !important;">Contact</a>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-primary">Get Started</button>
+                <button type="button" class="btn btn-primary" style="background-color: #2487ce !important;">Get Started</button>
               </div>
             </div>
           </nav>
         <div class="top-hero-section">
             <div class="container">
-                <div class="text-center py-5">
+                <div class="text-center py-5" data-aos="fade-up" data-aos-duration="3000">
                 <h1 class="text-primary display-1 fw-bold">One Page Bootstrap</h1>
                 <h2 class="text-danger display-1 fw-bold"> Website Template</h2>
                 <p class="fs-4">We are team of talented designers</p>
-                <button type="button" class="btn btn-primary">Get Started</button>
+                <button type="button" class="btn btn-primary" style="background-color: #2487ce !important;">Get Started</button>
                 </div>
                 <div class="container mt-5">
                     <section id="cards-section mb-5 mt-5">
                         <div class="row">
                             <div class="col-lg-3 col-md-6 mb-3">
-                                <div class="card">
+                                <div class="card border-o" style="background-color: #fff;">
                                     <div class="card-body">
                                         <i class="fa-solid fa-layer-group text-primary icon"></i>
                                         <h3 class="text-primary fs-4">Lorem Ipsum</h3>
@@ -74,7 +86,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 mb-3">
-                                <div class="card">
+                                <div class="card border-0" style="background-color: #fff;">
                                     <div class="card-body">
                                         <i class="fa-solid fa-palette text-primary icon"></i>
                                         <h3 class="text-primary fs-4">Sed ut perspiciatis</h3>
@@ -83,7 +95,7 @@
                                 </div>
                             </div> 
                             <div class="col-lg-3 col-md-6 mb-3">
-                                <div class="card">
+                                <div class="card border-0" style="background-color: #fff;">
                                     <div class="card-body mt-3">
                                         <i class="bi bi-command text-primary icon"></i>
                                         <h3 class="text-primary fs-4 mt-2">Magni Dolores</h3>
@@ -192,94 +204,78 @@
         </div>
         <div class="testimonies my-5">
             <div class="container text-center">
-                <div class="text">
+                <div class="text" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1 class="text-primary">TESTIMONIALS</h1>
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
-                <div class="slides mt-5">
+                <div class="slides mt-5" data-aos="fade-up"
+                data-aos-duration="3000">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide col-lg-3 col-12">
                                 <div class="testimonial-box">
-                                        <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. </p>
+                                    <div class="testimony p-2"><i>
+                                        <p><i class="fa-solid fa-quote-left fa-2xl pe-2"></i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i class="fa-solid fa-quote-right fa-2xl ps-2"></i></p></i>
                                     </div>
                                     <div class="person text-center">
                                         <img src="img/testimonials-1.jpg" alt="Person" class="img-fluid">
-                                        <h3>Saul Goodman</h3>
-                                        <h4>Ceo &amp; Founder</h4>
-                                    </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <div class="testimony">
-                                        <p>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</p>
-                                    </div>
-                                    <div class="person text-center">
-                                        <img src="img/testimonials-2.jpg" alt="Person" class="img-fluid">
-                                        <h3>Sara Wilsson</h3>
-                                        <h4>Designer</h4>
+                                        <h3 class="">Saul Goodman</h3>
+                                        <p class="opacity-75">Ceo &amp; Founder</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide col-lg-3 col-12">
+                                <div class="testimonial-box">
+                                    <div class="testimony p-2"><i>
+                                        <p><i class="fa-solid fa-quote-left fa-2xl pe-2"></i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<i class="fa-solid fa-quote-right fa-2xl ps-2"></i></p></i>
+                                    </div>
+                                    <div class="person text-center">
+                                        <img src="img/testimonials-2.jpg" alt="Person" class="img-fluid">
+                                        <h3 class="">Sara Wilsson</h3>
+                                        <p class="opacity-75">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide col-lg-3 col-12">
                                     <div class="testimonial-box">
-                                        <div class="testimony">
-                                            <p>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</p>
+                                        <div class="testimony p-2"><i>
+                                            <p><i class="fa-solid fa-quote-left fa-2xl pe-2"></i>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.<i class="fa-solid fa-quote-right fa-2xl ps-2"></i></p></i>
                                         </div>
                                         <div class="person text-center">
                                             <img src="img/testimonials-3.jpg" alt="Person" class="img-fluid">
-                                            <h3>Jena Karlis</h3>
-                                            <h4>Store Owner</h4>
+                                            <h3 class="">Jena Karlis</h3>
+                                            <p class="opacity-75">Store Owner</p>
                                         </div>
                                     </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide col-lg-3 col-12">
                                 <div class="testimonial-box">
-                                    <div class="testimony">
-                                        <p>	&quot; Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. 	&quot; </p>
+                                    <div class="testimony p-2"><i>
+                                        <p><i class="fa-solid fa-quote-left fa-2xl pe-2"></i>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.<i class="fa-solid fa-quote-right fa-2xl ps-2"></i></p></i>
                                     </div>
                                     <div class="person text-center">
                                         <img src="img/testimonials-4.jpg" alt="Person" class="img-fluid">
-                                        <h3>Matt Brandon</h3>
-                                        <h4>Freelancer</h4>
+                                        <h3 class="">Matt Brandon</h3>
+                                        <p class="opacity-75">Freelancer</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide col-lg-3 col-12">
                                 <div class="testimonial-box">
-                                    <div class="testimony">
-                                        <p>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
+                                    <div class="testimony p-2"><i>
+                                        <p><i class="fa-solid fa-quote-left fa-2xl pe-2"></i>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.<i class="fa-solid fa-quote-right fa-2xl ps-2"></i></p></i>
                                     </div>
                                     <div class="person text-center">
                                         <img src="img/testimonials-5.jpg" alt="Person" class="img-fluid">
-                                        <h3>John Larson</h3>
-                                        <h4>Entrepreneur</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <div class="testimony">
-                                        <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. </p>
-                                    </div>
-                                    <div class="person text-center">
-                                        <img src="img/testimonials-1.jpg" alt="Person" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-box">
-                                    <div class="testimony">
-                                        <p>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</p>
-                                    </div>
-                                    <div class="person text-center">
-                                        <img src="img/testimonials-2.jpg" alt="Person" class="img-fluid">
+                                        <h3 class="">John Larson</h3>
+                                        <p class="opacity-75">Entrepreneur</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -345,6 +341,7 @@
             <div class="container text-center">
                 <h4>Call To Action</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button type="button" class="btn btn-outline-light">Call To Action</button>
             </div>
         </div>
         <div class="portfolio text-center">
@@ -370,19 +367,47 @@
             </div>
         </div>
     <script src="js/bootstrap.min.js"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/16ec810fa7.js" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- INITIALIZE AOS -->
+    <script>
+        AOS.init();
+      </script>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              },
+          });
     </script>
 </body>
 </html>
