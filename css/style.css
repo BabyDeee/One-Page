@@ -8,10 +8,6 @@
     background-color: #f8fbfe;
 }
 
-.text-primary{
-    color: #124265 !important;
-} 
-
 #hero-section{
     position: relative;
     padding-bottom: 20px;
@@ -31,19 +27,19 @@
 
 }
 
-.card .card-body .icon{
+.inner .card-body .icon{
     font-size: 30px;
     color: #2487ce !important;
     padding: 20px 10px;
 }
 
-.card{
+.inner{
     border-radius: 5px;
     margin: 5px;
 }
 
-.card:hover{
-    transform: scale(1.15);
+.inner:hover{
+    transform: scale(1.2) !important;
 }
 
 .about-section{
