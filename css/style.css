@@ -163,6 +163,10 @@
     color: #2487ce;
 }
 
+.pricing-card .card{
+    box-shadow:  20px 20px 60px #c1c1c1;
+}
+
 .FAQ .accordion .accordion-item .accordion-button:hover{
 color: #2487ce !important;
 }
