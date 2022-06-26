@@ -151,3 +151,24 @@
 .call-to-action{
     background: #2487ce;
 }
+
+.portfolio-list{
+    cursor: pointer;
+}
+
+.portfolio-list li:hover{
+    color: #2487ce;
+}
+.portfolio-list li:active{
+    color: #2487ce;
+}
+
+.FAQ .accordion .accordion-item .accordion-button:hover{
+color: #2487ce !important;
+}
+@media (max-width: 768px){
+    .FAQ{
+        width: 100% !important;
+        margin: 0 auto;
+    }
+}
